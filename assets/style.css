@@ -9,14 +9,38 @@
 }
 
 .jumbotron{
-    border: solid;
     text-align: end;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+    height: 20rem;
+    
+}
+
+#hero {
+    background-image: url(./andrew-ridley-jR4Zf-riEjI-unsplash.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+#profilePic {
+    margin-top: 40px;
+    margin-left: 1rem;
+    border-radius: 200px;
+    z-index: 2;
 }
 
 #quote {
-    margin: 0;
-    border: solid red;
-
+    margin: 11rem 0rem 1rem 0rem;
+    color: black;
+    background-color: rgba(240, 243, 247, 0.8);
+    width: max-content;
+    box-shadow: 0 0 50px 30px rgba(240, 243, 247, 0.9) !important;
 }
+
+
+.lead {
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding: 0.6rem;
+}
+
