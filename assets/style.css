@@ -14,6 +14,10 @@ html {
     color: var(--darkblue) !important;
 }
 
+body {
+    background-color: rgb(139, 181, 169, 0.1);
+}
+
 #header {
     background-color: var(--midgreen) !important;
 }
@@ -69,7 +73,14 @@ html {
 }
 
 .card {
-
-    margin: 5px -5px 5px -5px;
+    height: 100%;
+    border: solid 2px rgb(96, 52, 41, 0.5);
 }
 
+#projects {
+    margin-top: 12px;
+}
+
+#skills {
+    margin-top: 12px;
+}
