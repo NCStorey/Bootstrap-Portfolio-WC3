@@ -8,10 +8,11 @@
     --darkpurple: #4e4b54;
     --midpurple: #77737c;
     --midgreen:#8bb5a9;
+    --darkgreen: #294039;
 }
 
 html {
-    color: var(--darkblue) !important;
+    color: var(--darkgreen) !important;
 }
 
 body {
@@ -79,8 +80,33 @@ body {
 
 #projects {
     margin-top: 12px;
+    margin-bottom: 12px;
 }
 
-#skills {
-    margin-top: 12px;
+.card-body {
+    background-color: #2f484e !important;
+    color: white;
+
 }
+
+#skillcol {
+    height: 100%;
+    font-size: 20px;
+    text-align: center;
+    background-color:var(--lightgrey);
+    border-radius: 15px;
+    margin-left: 5px;
+    margin-right: 2.5px;    
+}
+
+#aboutme{
+    height: 100%;
+    font-size: 20px;
+    background-color: var(--lightgrey);
+    border-radius: 15px;
+    padding: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    
+}
+
