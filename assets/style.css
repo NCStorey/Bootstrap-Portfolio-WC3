@@ -151,7 +151,7 @@ body {
     margin-bottom: 15px;
 }
 
-a:hover {
+#contactLinks a:hover {
     color: white;
     box-shadow: 
     5px 5px 10px rgba(235, 234, 232, 0.7), 
