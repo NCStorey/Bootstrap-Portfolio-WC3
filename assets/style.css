@@ -1,3 +1,4 @@
+/* pallette for the website */
 :root{
     --darkred:#603429;
     --dustypink:#bc9593;
@@ -60,6 +61,7 @@ body {
     z-index: 2;
 }
 
+/* custom box shadow for quote with fade*/
 #quote {
     margin: 10rem 0rem 1rem 0rem;
     color: black;
@@ -71,8 +73,7 @@ body {
 }
 
 
-.lead {
-    
+.lead {    
     font-size: 1.3rem;
     font-weight: 400;
     padding: 0.5rem;
@@ -107,6 +108,7 @@ body {
     margin:0.5px;
 }
 
+/* used to stop the words overflowing */
 .skills {
     padding: 5px;
 }
@@ -120,6 +122,7 @@ body {
     margin:0.5px;
 }
 
+/* used as everytime it stacked under the skills section there would be no space seperating it which made it hard to read */
 @media (max-width: 767.98px){
     #aboutme {margin-top: 15px;}
 }
@@ -151,6 +154,7 @@ body {
     margin-bottom: 15px;
 }
 
+/* box shadow on hover - two box shadows used to create leaf shape */
 #contactLinks a:hover {
     color: white;
     box-shadow: 
